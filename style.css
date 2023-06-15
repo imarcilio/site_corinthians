@@ -1,0 +1,453 @@
+:root{
+    --color-primary:#000000;
+    --color-secundary:rgba(51, 50, 50, 0.8);
+    --color-tertiary: #ebe0e0;
+    --primaryfont:'Poppins', sans-serif;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+/*############### PARTE 01 ##################*/
+
+.mascote{
+    width: 50px;
+    position: fixed;
+    right: 40px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+
+
+
+
+
+header{
+    padding: 20px 0;
+    background-image: url(./images/logo-torcida-pretoebranco.jpg.jpg);
+    height: 100vh;
+    background-size: cover;
+
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+header .container ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+header .container ul li a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    text-shadow: 5px 5px 5px var(--color-tertiary);
+}
+
+header .container ul li a:hover {
+    border-bottom: 4px solid  var(--color-primary);
+    background-color: var(--color-secundary);
+    color: var(--color-tertiary);
+    text-shadow: none;
+}
+
+header .container ul li img:hover{
+    cursor: pointer;
+    width: 150px;
+
+}
+
+header .container ul li img {
+    width: 100px;
+}
+
+
+/*##################### BANNER 02  ###################################*/
+
+.banner{
+    
+    text-transform: uppercase;
+    font-size: 25px;
+    height: 200px;
+    width: 950px;
+    margin: 100px auto;
+    text-align: center;
+    text-shadow: 5px 5px 5px var(--color-tertiary);
+}
+
+/*########################### PARTE 02 ####################################*/
+
+
+.history{
+    height: 100vh;
+    background-color: var(--color-primary);
+    color: var(--color-tertiary);
+    
+}
+
+.history h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px var(--color-secundary);
+}
+
+.history .container{
+
+display: flex;
+align-items: center;
+}
+
+.history .container{
+    max-width: 1260px;
+    margin: auto;
+    
+}
+
+.history .container .photo1 img{
+    width: 400px;
+    margin: 0 20px;
+}
+
+
+
+.history .container .text{
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 1em;
+    padding: 10px;
+}
+
+
+
+/*######################### TEAM ##############*/
+
+
+.team {
+    height: 100vh;
+    background-image: url(./images/torcida02.webp);
+    background-size: cover;
+    
+    
+}
+
+.team h2{
+    color: var(--color-tertiary);
+    text-align: center;
+    padding: 10px;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px var(--color-primary);
+}
+
+.team .container{    
+    max-width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+
+.relative{
+    width: 475px;
+    position: absolute;
+    
+}
+
+.relative2{
+    width: 550px;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+/*############   ARENA    ################*/
+
+
+.arena{
+    height: 100vh;
+    background-image: url(./images/arena-image1-opaca2.jpg.jpg);
+    background-size: cover;
+    
+}
+
+.arena h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px var(--color-tertiary);
+}
+
+.arena .container{
+
+display: flex;
+align-items: center;
+}
+
+.arena .container{
+    max-width: 1260px;
+    margin: auto;
+    
+}
+
+.arena .container .ourarena img{
+    width: 400px;
+    margin: 0 20px;
+}
+
+.arena .container .text{
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 1em;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px var(--color-tertiary);
+    color: var(--color-primary);
+}
+
+
+/*############   HINO   ################*/
+
+
+.hino{
+    height: 100vh;
+    background-image: url(./images/escudos-corinthianosOpaco.jpg.jpg);
+    background-size: cover;
+    
+}
+
+.hino h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px var(--color-tertiary);
+}
+
+.hino .container{
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hino .container{
+    max-width: 1080px;
+    margin: auto;
+    
+}
+
+.hino .container .anthem{
+    width: 400px;
+    margin: 0 20px;
+    color: var(--color-primary);
+    height: 500px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    
+}
+
+
+
+.hino .container .text{
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 18px;
+    padding: 10px;
+    color: var(--color-primary);
+    width: 60%;
+    font-weight: bold;
+}
+
+.hinop1{
+    margin-top: 20px;
+    line-height: 1;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px var(--color-primary);
+}
+
+.hinop2{
+    margin-top: 40px;
+    line-height: 1.2;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px var(--color-primary);
+}
+
+
+.containeraudio{
+
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+.audio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.audio p{
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+
+
+/*############   CONTATO   ################*/
+
+
+.contact{
+    height: 100vh;
+    background-color: var(--color-primary);
+    color: var(--color-tertiary);
+    
+}
+
+.contact h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px var(--color-secundary);
+}
+
+.contact .container{
+    display: flex;
+    max-width: 1080px;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.louco{
+    margin-top: 50px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes li{
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.redes ul li a{
+    text-decoration: none;
+}
+
+.redes img{
+    width: 50px;
+}
+
+
+
+
+
+
+form input,
+form textarea{
+    width: 320px;
+    display: block;
+    margin-bottom: 6px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+}
+form button{
+    background-color: var(--color-tertiary);
+    color: var(--color-primary);
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: orange;
+}
+
+input:focus, textarea:focus{
+    outline-color: var(--color-primary);
+}
+
+form button
+{
+    width: 158px;
+    display: inline;
+    margin-bottom: 6px;
+    padding: 8px;
+}
+
+
+.gavioes img {
+    margin: auto;
+    display: block;
+    padding: 20px;
+
+}
+
+
+/*############   CONTATO   ################*/
+
+footer{
+    background-color: var(--color-secundary);
+    height: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 0;
+    
+} 
+
+footer .container{
+    max-width: 1080px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    padding: 20px;
+    margin: 0 30px;
+    justify-content: space-around;
+    
+}
+
+nav li {
+    list-style: none;
+    
+}
+
+nav li a{
+    color: var(--color-tertiary);
+    text-decoration: none;
+    
+}
+
+footer p{
+    text-align: center;
+}
+
